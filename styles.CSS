@@ -3,9 +3,25 @@
 
 
 body {
-    background-color: #535C91;
+    background-color: #D4BEE4;
     font-family: 'Libre Bodoni';
-    color: #D9DFC6;
+    color: #;
     font-size: x-large;
 
+
+
 }
+ 
+.navBar{
+    background-color:#500073;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+a{
+
+    color: aliceblue;
+
+}
+
