@@ -18,10 +18,34 @@ body {
     text-align: center;
     
 }
+.navBar a {
+    padding: 10px;
+}
+.navBar a:hover {
+    background-color: #0B192C;
+
+}
 
 a{
 
     color: aliceblue;
+    font-size:x-large;
 
+}
+
+.textblack{
+
+    color: black;
+}
+
+
+div{
+
+    text-align: center;
+}
+
+ul{
+
+    font-size: smaller;
 }
 
