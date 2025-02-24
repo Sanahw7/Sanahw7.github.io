@@ -50,8 +50,30 @@ div{
 
 }
 
+.center{
 
+    text-align: center;
+}
 
+.box{
+    background-color: rgb(116, 18, 146);
+    padding: 10px;
+}
 
+.box2{
 
+    background-color: rgba(81, 5, 119, 0.428);
+    padding: 10px;
+    
+}
+
+.box{
+
+    background-color: #6f1695;
+}
+
+.box3{
+
+    background-color: #0B192C;
+}
 
