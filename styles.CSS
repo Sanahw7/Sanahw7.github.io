@@ -79,7 +79,8 @@ div{
 
 .DEFTONESS{
 
-    display: flex;
+    display: flex; 
+    justify-content: center;
 
 }
 
