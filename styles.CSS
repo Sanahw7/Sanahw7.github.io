@@ -3,9 +3,10 @@
 
 
 body {
-    background-color: #D4BEE4;
+    background-image: url("backgrounddd.jpeg");
+    background-size: cover;
     font-family: 'Libre Bodoni';
-    color: #;
+    color: #ffd0d0;
     font-size: x-large;
 
 
@@ -13,7 +14,7 @@ body {
 }
  
 .navBar{
-    background-color:#500073;
+    background-color:#c063e7;
     padding: 20px;
     text-align: center;
     
@@ -35,7 +36,7 @@ a{
 
 .textblack{
 
-    color: black;
+    color: #ffd0d0;
 }
 
 
@@ -107,3 +108,7 @@ border-radius: 30px;
     border-radius: 23px;
 }
 
+.bold{
+    font-weight: 800;
+    color: aliceblue;
+}
