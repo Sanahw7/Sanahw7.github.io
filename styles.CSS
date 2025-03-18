@@ -39,6 +39,7 @@ a {
 .textblack {
 
     color: #ffd0d0;
+    font-size: large;
 }
 
 
@@ -134,3 +135,4 @@ div {
 @media screen and (max-width{
     
 }
+

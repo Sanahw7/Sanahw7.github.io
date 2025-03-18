@@ -15,7 +15,7 @@
     
         <a href="index.html">Homepage</a>
     
-        <a href="aboutme_interest.html">About me/interest</a>
+        <a href="aboutme_interest.html">About me/interests</a>
      
          <a href="projects.html">Projects</a>
      
@@ -41,7 +41,13 @@
     </center>
 </div>
 
-<form> 
+<form
+ action="https://form-to-email.steam-center.workers.dev/"
+ method="post"
+
+>
+
+ <input name="send-to" value="swhite2@brooklynsteamcenter.org" hidden>
     <label>First name</label>
     
    
@@ -60,9 +66,9 @@
    <label>Comments</label>
    <br>
    <textarea required name="comments"></textarea>
-
+   <button type="submit"><i data-lucide="send"></i></button>
 </form>
-<button type="submit"><i data-lucide="send"></i></button>
+
 <a href="mailto:swhite@brooklynsteamcenter.org"</a>
 <i data-lucide="mail"></i>
 <a href="https://github.com"><i data-lucide="github"></i></a>
@@ -76,7 +82,7 @@
   
 <details>
 <summary>Personal website</summary>
-<p>This webiste serves to educate it's visitors and catch their attetntion  </p>
+<p>This webiste serves to educate it's visitors and catch their attention.  </p>
 </details>
  
 </body>
