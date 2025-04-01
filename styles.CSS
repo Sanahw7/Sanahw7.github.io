@@ -132,7 +132,9 @@ div {
     justify-content: start;
 }
 
-@media screen and (max-width{
-    
-}
+
  
+.imagee{
+
+    border:10px solid red
+}
