@@ -95,7 +95,8 @@ div {
 
 .PROJECTSS {
 
-    display: flex;
+    display
+
 }
 
 
@@ -103,6 +104,17 @@ div {
 .PROJECTSS img {
 
     border-radius: 30px;
+
+}
+
+.eco img {
+
+    border-radius: 30px;
+}
+
+.EcoL {
+
+color: white
 
 }
 
