@@ -1,47 +1,221 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 
 body {
-    background-image: url("backgrounddd.jpeg");
+    background-color: rgb(234, 233, 233);
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Libre Bodoni';
-    color: #ffd0d0;
+    color: #000000;
     font-size:large;
+    
+   
 
 
 
 }
 
 .navBar {
-    background-color: #c063e7;
+    background-color: black;
     padding: 20px;
     text-align: center;
-
+    
+   
 }
 
 .navBar a {
     padding: 10px;
+    color: white;
+   
 }
 
 .navBar a:hover {
-    background-color: #0B192C;
+    background-color: red;
 
 }
 
 a {
 
-    color: aliceblue;
+    color: black;
     font-size: x-large;
+
+}
+
+.about-container{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 80px;
+   
 
 }
 
 .textblack {
 
-    color: #ffd0d0;
+    color: black;
     font-size: large;
+    display: flex;
+    justify-content: flex-end;
 }
 
+.PICTURE {
+   
+    object-fit:cover;
+   border-radius: 30%;
+   margin-right: 20px;
+   width: 300px;
+   border-color: #000000;
+ 
+
+}
+
+.coding{
+ text-decoration: underline;
+ margin-top: 20px;
+ text-align: center;
+
+}
+
+.codingL{
+    display: flex;
+  
+  justify-content: space-around;
+}
+
+.Github{
+text-decoration: underline;
+color: #000000;
+margin-top: 55px;
+text-decoration: solid;
+text-align: center;
+
+}
+
+.V{
+    display: flex;
+    
+}
+
+.videogames{
+
+    display: flex;
+    flex-direction: row;
+   gap: 10px;
+   
+
+}
+
+.videogames img {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+   
+}
+
+
+
+.videogames img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.Music{
+display: flex;
+flex-direction: row-reverse;
+text-decoration: underline;
+gap: 10px;
+
+
+}
+.Music img {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.Music img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+
+.music-card {
+  position: relative;
+}
+
+
+.music-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  transition: 0.3s ease;
+
+  border-radius: 12px;
+}
+
+
+.music-card:hover img {
+  transform: scale(1.08);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.music-card:hover .overlay {
+  opacity: 1;
+}
+
+.MA{
+display: flex;
+flex-direction: row-reverse;
+
+}
+
+.biking {
+
+    display: flex;
+    flex-direction: row;
+   gap: 10px;
+   
+}
+
+.biking img {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+   
+}
+
+ .biking img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.biking 
 
 div {
 
@@ -60,20 +234,15 @@ div {
 }
 
 .box {
-    background-color: rgb(116, 18, 146);
-    padding: 10px;
-}
-
-.box2 {
-
-    background-color: rgba(81, 5, 119, 0.428);
-    padding: 10px;
+   display:flex ;
 
 }
+
+
 
 .box {
 
-    background-color: #6f1695;
+  
 }
 
 .box3 {
@@ -81,22 +250,27 @@ div {
     background-color: #0B192C;
 }
 
-.DEFTONESS {
 
-    display: flex;
-    justify-content: center;
 
-}
 
-.CFMM {
-    display: flex;
-}
+
+
 
 
 .PROJECTSS {
 
-    display
+    display:flex;
 
+    flex-direction: row;
+
+    gap: 10px;
+
+
+}
+
+.PROJECTSS2 {
+
+    width: ;
 }
 
 
