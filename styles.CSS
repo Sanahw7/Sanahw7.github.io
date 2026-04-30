@@ -122,7 +122,7 @@ text-align: center;
 .Music{
 display: flex;
 flex-direction: row-reverse;
-text-decoration: underline;
+
 gap: 10px;
 
 
@@ -323,4 +323,219 @@ color: white
 .imagee{
 
     border:10px solid red
+}
+
+
+/* Resposiveness for homepage */
+
+
+.codingL {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .PICTURE {
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 200px;
+    }
+
+    .textblack {
+        justify-content: center;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+  
+    .codingL {
+        overflow-x: auto;
+        justify-content: flex-start;
+        padding: 10px;
+    }
+
+    .codingL img {
+        flex: 0 0 auto;
+    }
+}
+
+
+
+/* About me responsiveness */
+
+
+
+@media (max-width: 768px) {
+
+  
+  .videogames,
+  .Music,
+  .biking {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 12px;
+    padding: 10px;
+    width: 100%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+
+  .videogames img,
+  .biking img,
+  .music-card {
+    flex: 0 0 auto;
+  }
+
+  
+  .videogames img,
+  .biking img {
+    width: 140px;
+    height: auto;
+  }
+
+  .music-card img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+  }
+
+
+  .videogames p,
+  .Music p,
+  .biking p {
+    flex: 0 0 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+  }
+
+ 
+  .V, .MA, .bike {
+    justify-content: flex-start;
+    padding-left: 15px;
+  }
+
+ 
+  .Music {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+ /* About us responsivesness 2  */
+
+@media (max-width: 768px) {
+
+  .videogames img,
+  .biking img,
+  .music-card img {
+    width: 140px;
+    height: auto;        /* 👈 key change */
+    object-fit: cover;   /* safe again because no forced square */
+    border-radius: 12px;
+    flex-shrink: 0;
+  }
+
+  .music-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+
+/* Projects responsinvess */
+
+@media (max-width: 768px) {
+
+  /* Center all project sections */
+  .PROJECTSS,
+  .PROJECTSS2,
+  .PROJECTSS3,
+  .eco,
+  .centerbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Images centered and responsive */
+  .PROJECTSS img,
+  .PROJECTSS2 img,
+  .PROJECTSS3 img,
+  .eco img,
+  .centerbox img {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  /* Make sure text is UNDER images naturally */
+  .PROJECTSS p,
+  .PROJECTSS2 p,
+  .PROJECTSS3 p,
+  .eco p {
+    width: 100%;
+    padding: 0 15px;
+    margin-top: 10px;
+  }
+
+  /* Fix ugly center tag behavior on mobile */
+  center {
+    display: block;
+    text-align: center;
+  }
+
+  /* Headings spacing */
+  h1, h2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 769px) {
+
+  /* make all project sections vertical on large screens */
+  .PROJECTSS,
+  .PROJECTSS2,
+  .PROJECTSS3,
+  .eco,
+  .centerbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* images on top */
+  .PROJECTSS img,
+  .PROJECTSS2 img,
+  .PROJECTSS3 img,
+  .eco img,
+  .centerbox img {
+    order: -1;
+    margin-bottom: 15px;
+  }
+
+  /* clean text width */
+  .PROJECTSS p,
+  .PROJECTSS2 p,
+  .PROJECTSS3 p,
+  .eco p,
+  .centerbox {
+    max-width: 750px;
+  }
 }
